@@ -13,14 +13,48 @@
     background-color: #3e8e41;
 }
 body{
-    font:italic "微软雅园";
+    margin:0; 
+    height:100%; 
+    font: 15px "微软雅黑";
+    background:#eee
 }
 ul{
     list-style: none;
 }
 a {
-    color: rgb(255,255,255);
+    text-decoration:none;
+    color: rgb(0,150,0);
 }
 p {
     color: rgb(255,255,255);
+}
+iframe.ui01 {
+    width :20%;
+    height: 100%;;
+}
+iframe.ui02 {
+    width :75%;
+    height: 100%;
+}
+
+div{
+background: #eee;
+padding: 10px 0;
+white-space: nowrap;/*文本不会换行，文本会在在同一行上继续*/
+overflow-y:auto;/*可滑动*/
+}
+#颜色01 {
+    color:rgb(255, 0, 255);
+}
+#颜色02{
+    color: goldenrod;
+}
+#颜色03{
+    color:rgb(0, 150, 200);
+}
+#颜色04{
+    color:rgb(255, 255, 255);
+}
+#颜色05{
+    color:rgb(255, 255, 0);
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>War3 开发者文档</title>
+    </head>
+    <style>
+        body{
+            font:20px "微软雅黑";
+            }
+        p {
+            color:rgb(225, 225, 225);
+        }
+        a {
+            text-decoration:none;
+            color: chartreuse;
+        }
+        div{
+        background: #eee;
+        padding: 10px 0;
+        white-space: nowrap;/*文本不会换行，文本会在在同一行上继续*/
+        overflow-y:auto;/*可滑动*/
+        }
+    </style>
+    <body style="background:rgb(25, 25, 25); color:rgb(200, 200, 200);">
+    <h1 style="color:rgb(250, 250, 250);" >逆天句柄重置</h1><br>
+    <h3 style="color:rgb(250, 250, 250);" > 描述 </h3>
+    <p style="color:rgb(200, 200, 200);" > 
+        重置逆天句柄数，这个函数适用于高频调用逆天的地图适用，如果地图游戏时间超过1小时也可以使用。<br>
+        使用前请确定地图是否有逆天相关函数。
+    </p><br><br>
+    
+    <h3 style="color:rgb(250, 250, 250);" > Jass </h3>
+            <div style="background:rgb(35, 35, 35);" ><br>
+
+                <code style="background:rgb(35, 35, 35);" >
+                    <span style="color:rgb(0, 150, 200);">function</span> 
+                    <span style="color:rgb(255, 255, 255);">TG_YDLOCReset</span> 
+                    <span style="color:rgb(0, 150, 200);">takes</span> 
+                    <span style="color:rgb(0, 225, 200);">nothing</span> 
+                    <span style="color:rgb(0, 150, 200);">returns</span> 
+                    <span style="color:rgb(0, 225, 200);">nothing</span>
+
+                </code><br><br>
+                
+            </div><br><br>
+    <h3 style="color:rgb(250, 250, 250);" > 触发器 </h3>
+    <img src="png\逆天句柄重置.png">
+    </body>
+</html>
+

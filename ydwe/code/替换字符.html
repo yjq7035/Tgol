@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>War3 开发者文档</title>
+    </head>
+    <style>
+        body{
+            font:20px "微软雅黑";
+            }
+        p {
+            color:rgb(225, 225, 225);
+        }
+        a {
+            text-decoration:none;
+            color: chartreuse;
+        }
+        div{
+        background: #eee;
+        padding: 10px 0;
+        white-space: nowrap;/*文本不会换行，文本会在在同一行上继续*/
+        overflow-y:auto;/*可滑动*/
+        }
+    </style>
+    <body style="background:rgb(25, 25, 25); color:rgb(200, 200, 200);">
+    <h1 style="color:rgb(250, 250, 250);" >替换字符</h1><br>
+    <h3 style="color:rgb(250, 250, 250);" > 描述 </h3>
+    <p style="color:rgb(200, 200, 200);" > 
+        替换字符中自定位置的字符<br>
+        例如 123456789   位置3 长度1  替换为7   结果为127456789<br>
+        例如 123456789   位置3 长度3  替换为789 结果为127896789 <br>
+    </p><br><br>
+    <h3 style="color:rgb(250, 250, 250);" > Jass </h3>
+            <div style="background:rgb(35, 35, 35);" ><br>
+                <code style="background:rgb(35, 35, 35);" >
+                    <span style="color:rgb(0, 150, 200);">function</span> 
+                    <span style="color:rgb(255, 255, 255);">TG_RepLaceString</span> 
+                    <span style="color:rgb(0, 150, 200);">takes</span> 
+                    <span style="color:rgb(0, 225, 200);">string</span> 
+                    <span style="color:rgb(250, 250, 250);">stg,</span>
+                    <span style="color:rgb(0, 225, 200);">string</span> 
+                    <span style="color:rgb(250, 250, 250);">Pointstg,</span>
+                    <span style="color:rgb(0, 225, 200);">integer</span> 
+                    <span style="color:rgb(250, 250, 250);">start,</span>
+                    <span style="color:rgb(0, 225, 200);">integer</span> 
+                    <span style="color:rgb(250, 250, 250);">end</span>
+                    <span style="color:rgb(0, 150, 200);">returns</span> 
+                    <span style="color:rgb(0, 225, 200);">string</span>
+                </code><br><br>
+            </div><br><br>
+    <h3 style="color:rgb(250, 250, 250);" > 触发器 </h3>
+    <img src="png\替换字符.png">
+    </body>
+</html>
+

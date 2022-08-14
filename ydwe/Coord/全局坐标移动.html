@@ -15,6 +15,12 @@
             text-decoration:none;
             color: chartreuse;
         }
+        div{
+        background: #eee;
+        padding: 10px 0;
+        white-space: nowrap;/*文本不会换行，文本会在在同一行上继续*/
+        overflow-y:auto;/*可滑动*/
+        }
     </style>
     <body style="background:rgb(25, 25, 25); color:rgb(200, 200, 200);">
 
@@ -24,8 +30,11 @@
         移动坐标到新的位置。
     </p><br><br>
     <h3 style="color:rgb(250, 250, 250);" > Jass </h3>
-        <div style="background:rgb(35, 35, 35);" ><br>
-            <code style="background:rgb(35, 35, 35);" ><span style="color:rgb(0, 150, 200);">function</span> <span style="color:rgb(255, 255, 255);">TG_CoordShift</span> <span style="color:rgb(0, 150, 200);">takes</span> <span style="color:rgb(0, 225, 200);">string</span> <span style="color:rgb(250, 250, 250);">key,</span> <span style="color:rgb(0, 225, 200);">real</span> <span style="color:rgb(250, 250, 250);">distance,</span> <span style="color:rgb(0, 225, 200);">real</span> <span style="color:rgb(250, 250, 250);">angle,</span><span style="color:rgb(0, 150, 200);">returns</span> <span style="color:rgb(0, 225, 200);">nothing</span>
+        <div class="box" style="background:rgb(35, 35, 35);" ><br>
+            <code style="background:rgb(35, 35, 35);" >
+                <span style="color:rgb(0, 150, 200);">
+                    function</span> <span style="color:rgb(255, 255, 255);">TG_CoordShift</span> 
+                    <span style="color:rgb(0, 150, 200);">takes</span> <span style="color:rgb(0, 225, 200);">string</span> <span style="color:rgb(250, 250, 250);">key,</span> <span style="color:rgb(0, 225, 200);">real</span> <span style="color:rgb(250, 250, 250);">distance,</span> <span style="color:rgb(0, 225, 200);">real</span> <span style="color:rgb(250, 250, 250);">angle,</span><span style="color:rgb(0, 150, 200);">returns</span> <span style="color:rgb(0, 225, 200);">nothing</span>
             </code><br><br>
         </div><br><br>
     <h3 style="color:rgb(250, 250, 250);" > 触发器 </h3>

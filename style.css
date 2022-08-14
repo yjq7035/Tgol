@@ -1,0 +1,26 @@
+.button {
+    background-color:rgb(25, 25, 25); /* Green */
+    border: none;
+    color: white;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #3e8e41;
+}
+body{
+    font:italic "微软雅园";
+}
+ul{
+    list-style: none;
+}
+a {
+    color: rgb(255,255,255);
+}
+p {
+    color: rgb(255,255,255);
+}
